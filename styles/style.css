@@ -41,7 +41,7 @@ header {
 nav {
   /* border: 3px solid green; */
   padding-right: 0rem;
-  background-color: white;
+  background-color: white !important;
 }
 
 nav ul {
@@ -54,6 +54,7 @@ nav li a {
   color: #333;
   text-decoration: none;
   margin: 0 auto;
+  background-color: white !important;
 }
 
 .nav_element {
