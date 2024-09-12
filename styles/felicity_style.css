@@ -1,0 +1,209 @@
+/* Global styles */
+
+@font-face {
+  font-family: ‘Proxima Nova’;
+  src: url(‘proximanova-regular-webfont.eot’);
+  src: url(‘proximanova-regular-webfont.eot?#iefix’) format(’embedded-opentype’),
+    url(‘proximanova-regular-webfont.woff2’) format(‘woff2’),
+    url(‘proximanova-regular-webfont.woff’) format(‘woff’),
+    url(‘proximanova-regular-webfont.ttf’) format(‘truetype’),
+    url(‘proximanova-regular-webfont.svg#proxima_nova_regular’) format(‘svg’);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: #333;
+  /* background-color: #fef8f0; */
+  background-color: white;
+  /* border: 3px solid blue; */
+  max-width: 1400px;
+  margin: 0 auto !important;
+}
+
+header {
+  position: fixed;
+  width: 20vw;
+  /* border: 3px solid red; */
+  text-align: right;
+  padding-top: 4rem;
+  bottom: 2%;
+  top: 0%;
+}
+
+/* nav bar */
+nav {
+  /* border: 3px solid green; */
+  padding-right: 0rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+nav li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.nav_element {
+  line-height: 5rem;
+  transition-duration: 1.5s;
+  font-size: 20px;
+}
+
+.selected_nav {
+  font-size: max(2.5vw, 32px);
+  font-weight: bold;
+  line-height: 5rem;
+  transition-duration: 1.5s;
+}
+
+.heading_container {
+  display: flex; /* Align items in a row */
+  align-items: center; /* Vertically center the items */
+}
+.heading2_text {
+  /* margin-right: 10px; Space between heading and body text */
+  /* border: 3px solid green; */
+}
+.body_text {
+  /* font-size: 16px; */
+  /* color: #666; Optional: change color to differentiate */
+  margin-top: -1rem;
+}
+
+.background_photo {
+  /* padding-top: 2rem; */
+  /* position: fixed; */
+  /* left: 4%; Aligns the image to the right edge of the viewport */
+  /* top: 40%; Aligns the image vertically to the middle of the viewport */
+  /* transform: translateY(-50%); Centers the image vertically */
+  /* z-index: 1000; Ensures the image is above other content */
+  /* border-radius: 100%; Creates the circle */
+  /* object-fit: cover; Ensures the image covers the circle without distortion */
+  /* overflow: hidden; */
+  /* background-image: url("img/felicity-photo.png"); */
+  /* background-position: right; */
+  /* height: 100vh; Full viewport height */
+  /* background-size: cover;
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat; */
+  /* color: white; Example text color */
+}
+
+/* Icons */
+.contact_icons {
+  /* border: 3px solid yellow; */
+  margin: 0 auto;
+  /* padding-top: rem; */
+  padding-right: 0rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+.contact_icons ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.contact_icons li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  line-height: 3rem;
+  margin: 0 auto;
+}
+
+.contact_icons img {
+  width: 30px;
+  height: 30px;
+  padding-right: 4px;
+}
+
+main {
+  margin-left: 20vw;
+  padding-left: 5rem;
+  padding-top: 2em;
+  padding-right: 1rem;
+  max-width: 680px;
+  /* border: 3px solid green; */
+}
+
+section h2 {
+  font-size: 28px;
+}
+
+section p {
+  margin-top: 2rem;
+}
+
+.bold_first_word {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.description_list_lower {
+  list-style-type: square;
+  margin-top: -2px;
+}
+
+.description_list_higher {
+  list-style-type: square;
+  margin-top: -2px;
+}
+
+/* Links */
+main a:link {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: #51362a;
+  background-color: #f0d1b1; */
+  color: #2a2a2a;
+  background-color: #d4d1d1;
+  border-radius: 4px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.1rem;
+  transition-duration: 0.4s;
+}
+
+/* visited link */
+main a:visited {
+  color: #2a2a2a;
+  background-color: #d4d1d1;
+}
+
+/* mouse over link */
+main a:hover {
+  color: #fff7ea;
+  background-color: #9b9895;
+}
+
+/* visited link */
+/* main a:visited {
+  color: #5e3e30;
+  background-color: #f0d1b1;
+} */
+
+/* mouse over link */
+/* main a:hover {
+  color: #ffe9c5;
+  background-color: #966b49;
+} */
+
+/* selected link
+main a:active {
+  color: blue;
+} */
