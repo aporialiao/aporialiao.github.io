@@ -41,6 +41,7 @@ header {
 nav {
   /* border: 3px solid green; */
   padding-right: 0rem;
+  background-color: white;
 }
 
 nav ul {
