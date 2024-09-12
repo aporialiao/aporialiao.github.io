@@ -59,6 +59,7 @@ nav li a {
   line-height: 5rem;
   transition-duration: 1.5s;
   font-size: 20px;
+  background-color: white;
 }
 
 .selected_nav {
@@ -83,8 +84,10 @@ nav li a {
 }
 
 .background_photo {
+  max-width: 100%;
   /* padding-top: 2rem; */
-  /* position: fixed; */
+  /* position: center; */
+  height: auto;
   /* left: 4%; Aligns the image to the right edge of the viewport */
   /* top: 40%; Aligns the image vertically to the middle of the viewport */
   /* transform: translateY(-50%); Centers the image vertically */
@@ -100,6 +103,16 @@ nav li a {
   background-attachment: fixed;
   background-repeat: no-repeat; */
   /* color: white; Example text color */
+}
+
+.feli_photo {
+  /* height: auto;
+  max-width: 20%; */
+  max-width: 10vw;
+  height: auto;
+  /* object-fit: contain; */
+
+  /* border: 3px solid green; */
 }
 
 /* Icons */
