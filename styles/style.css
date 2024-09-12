@@ -35,6 +35,7 @@ header {
   padding-top: 4rem;
   bottom: 2%;
   top: 0%;
+  background-color: white !important;
 }
 
 /* nav bar */
@@ -186,7 +187,7 @@ main a:link {
   /* color: #51362a;
   background-color: #f0d1b1; */
   color: #2a2a2a;
-  background-color: #d4d1d1;
+  background-color: #d4d1d1 !important;
   border-radius: 4px;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
@@ -198,13 +199,13 @@ main a:link {
 /* visited link */
 main a:visited {
   color: #2a2a2a;
-  background-color: #d4d1d1;
+  background-color: #d4d1d1 !important;
 }
 
 /* mouse over link */
 main a:hover {
   color: #fff7ea;
-  background-color: #9b9895;
+  background-color: #9b9895 !important;
 }
 
 /* visited link */
