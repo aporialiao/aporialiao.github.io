@@ -247,6 +247,7 @@ main a:active {
     padding-left: 90vw;
     margin-top: -2rem;
     /* position: center; */
+    background-color: transparent !important;
   }
 
   header {
@@ -288,7 +289,7 @@ main a:active {
   nav ul {
     list-style-type: none;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.85) !important;
+    background: transparent !important;
   }
 
   nav li a {
@@ -296,20 +297,20 @@ main a:active {
     color: #333;
     text-decoration: none;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.85) !important;
+    background: transparent !important;
   }
 
   .nav_element {
     transition-duration: 1.5s;
     font-size: 20px;
     line-height: 1rem;
-    background: rgba(255, 255, 255, 0.85) !important;
+    background: transparent !important;
   }
 
   .selected_nav {
     font-size: max(2.5vw, 24px);
     font-weight: bold;
-    background: rgba(255, 255, 255, 0.85) !important;
+    background: transparent !important;
   }
 
   .heading_container {
