@@ -340,8 +340,10 @@ main a:active {
   }
 
   main {
-    margin-left: -3rem;
-    padding-right: 2rem;
+    margin-left: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 100%;
   }
 
   .background_photo {
